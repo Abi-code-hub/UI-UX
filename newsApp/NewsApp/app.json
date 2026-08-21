@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "your-app-name",
+    "slug": "your-app-slug",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need access to your camera so you can share photos with your news.",
+        "NSPhotoLibraryUsageDescription": "We need access to your photo library so you can pick images to share.",
+        "NSPhotoLibraryAddUsageDescription": "We need access to save images to your library."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}
